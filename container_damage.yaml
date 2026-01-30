@@ -1,0 +1,11 @@
+path: ./datasets  # 数据集根目录
+train: images/train
+val: images/val
+test: images/test  # 测试集（最终评估用）
+
+# 类别名称 (必须与步骤1中的 CLASS_MAP 顺序一致)
+names:
+  0: Dent
+  1: Hole
+  2: Rusty
+  
